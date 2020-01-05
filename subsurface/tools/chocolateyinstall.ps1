@@ -1,7 +1,6 @@
 ﻿
 $ErrorActionPreference = 'Stop'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$fileLocation = Join-Path $toolsDir 'subsurface-4.9.3.exe'
 $url        = 'https://subsurface-divelog.org/downloads/subsurface-4.9.3.exe'
 $url64      = ''
 
@@ -24,7 +23,7 @@ $packageArgs = @{
   validExitCodes= @(0)
 }
 
-Install-ChocolateyInstallPackage @packageArgs
+Install-ChocolateyPackage @packageArgs
 
 
 
