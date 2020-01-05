@@ -1,0 +1,7 @@
+﻿
+VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+ 
+checksum -t sha256 -f subsurface-4.9.3.exe
+5FE40200F42865C04E8930458BBB1771D06872CFB7C0DDF2FDE40E11AABCA0C6

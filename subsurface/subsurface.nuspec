@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- == PACKAGE SPECIFIC SECTION == -->
+    <id>subsurface</id>
+    <version>4.9.3</version>
+    <!-- <packageSourceUrl>Where is this Chocolatey package located (think GitHub)? packageSourceUrl is highly recommended for the community feed</packageSourceUrl> -->
+    <owners>schlotter</owners>
+    <!-- ============================== -->
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <title>subsurface (Install)</title>
+    <authors>Dirk Hohndel, Linus Torvalds, Tomaz Canabrava and many more</authors>
+    <projectUrl>https://subsurface-divelog.org/</projectUrl>
+    <iconUrl>https://cdn.staticaly.com/gh/Subsurface-divelog/subsurface/master/icons/subsurface-icon.png</iconUrl>
+    <licenseUrl>https://raw.githubusercontent.com/Subsurface-divelog/subsurface/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/Subsurface-divelog/subsurface</projectSourceUrl>
+	<docsUrl>https://subsurface-divelog.org/documentation/</docsUrl>
+	<bugTrackerUrl>https://subsurface-divelog.org/bugtracker/</bugTrackerUrl>
+	<mailingListUrl>https://groups.google.com/forum/#!forum/subsurface-divelog</mailingListUrl>
+	<tags>subsurface divelog scuba</tags>
+	<summary>Subsurface is a piece of software for logging and planning scuba dives.</summary>
+	<description>Software for logging and planning scuba dives. Subsurface allows a scuba diver or free diver to keep track of their dive data. Recorded dive data can be downloaded from many dive computers and can be analyzed.</description>
+	<releaseNotes>Some of the changes in Subsurface 4.9.3:
+* Close dive site widget if dive site is removed by undo
+* Don’t destroy format of planner notes when editing dive notes [#2265]
+* Avoid full map reload when clicking on flag
+* Highlight all selected dive sites when clicking on flag
+* Fix crash when clicking on flags in Qt 5.9
+* Fix crash when saving subtitles or profile picture
+* Fix copy &amp; paste crash
+* Fix saving to XML with empty dive site taxonomies
+* Fix display of trip time
+* Planner: fix calculation of CNS for pO2 &gt; 1.6 bar
+* Dive computer support:
+  * add support for Deepblu Cosmiq+
+  * add support for Aqualung i200C
+  * various bug fixes</releaseNotes></metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
