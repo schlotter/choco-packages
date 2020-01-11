@@ -4,7 +4,7 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   softwareName  = 'subsurface*'
   fileType      = 'exe'
-  silentArgs   = '/S'
+  silentArgs    = '/S'
   validExitCodes= @(0)
 }
 
