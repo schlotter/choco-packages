@@ -18,7 +18,9 @@
     <mailingListUrl>https://groups.google.com/forum/#!forum/subsurface-divelog</mailingListUrl>
     <tags>subsurface divelog scuba</tags>
     <summary>Subsurface is a piece of software for logging and planning scuba dives.</summary>
-    <description>Software for logging and planning scuba dives. Subsurface allows a scuba diver or free diver to keep track of their dive data. Recorded dive data can be downloaded from many dive computers and can be analyzed.</description>
+    <description>Software for logging and planning scuba dives. Subsurface allows a scuba diver or free diver to keep track of their dive data. Recorded dive data can be downloaded from many dive computers and can be analyzed.
+
+    The default package installation location is `C:\Program Files (x86)\Subsurface`.</description>
   </metadata>
   <files>
     <!-- this section controls what actually gets packaged into the Chocolatey package -->
