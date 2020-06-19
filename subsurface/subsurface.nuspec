@@ -23,7 +23,6 @@
     The default package installation location is `C:\Program Files (x86)\Subsurface`.</description>
   </metadata>
   <files>
-    <!-- this section controls what actually gets packaged into the Chocolatey package -->
-    <file src="tools\**" target="tools" />
+    <file src="tools\*.ps1" target="tools" />
   </files>
 </package>
