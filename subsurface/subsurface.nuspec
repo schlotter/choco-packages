@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>subsurface</id>
-    <version>4.9.6</version>
+    <version>4.9.7</version>
     <packageSourceUrl>https://github.com/schlotter/choco-packages</packageSourceUrl>
     <owners>schlotter</owners>
     <title>subsurface (Install)</title>
@@ -21,6 +21,7 @@
     <description>Software for logging and planning scuba dives. Subsurface allows a scuba diver or free diver to keep track of their dive data. Recorded dive data can be downloaded from many dive computers and can be analyzed.
 
     The default package installation location is `C:\Program Files (x86)\Subsurface`.</description>
+    <releaseNotes>https://subsurface.github.io/</releaseNotes>
   </metadata>
   <files>
     <file src="tools\*.ps1" target="tools" />
