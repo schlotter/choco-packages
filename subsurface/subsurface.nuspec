@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>subsurface</id>
-    <version>5.0.6</version>
+    <version>5.0.7</version>
     <packageSourceUrl>https://github.com/schlotter/choco-packages</packageSourceUrl>
     <owners>schlotter</owners>
     <title>subsurface (Install)</title>
