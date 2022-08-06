@@ -1,7 +1,7 @@
 ﻿
 $ErrorActionPreference = 'Stop'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://subsurface-divelog.org/downloads/subsurface-5.0.8.exe'
+$url        = 'https://subsurface-divelog.org/downloads/subsurface-5.0.9.exe'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -11,7 +11,7 @@ $packageArgs = @{
 
   softwareName  = 'subsurface*'
 
-  checksum      = '4A57AE543DDD70E3073B982700D7096C24827CD476EB2B5D5B9E7815568BBDBA'
+  checksum      = '2344DB08A342BEE660850C9698D5E083C9A61949DFE8912FA916A98ECA8D6E10'
   checksumType  = 'sha256'
 
   silentArgs    = '/S'
