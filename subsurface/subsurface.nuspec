@@ -3,19 +3,19 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>subsurface</id>
-    <version>5.0.10</version>
+    <version>6.0.5038</version>
     <packageSourceUrl>https://github.com/schlotter/choco-packages</packageSourceUrl>
     <owners>schlotter</owners>
     <title>subsurface (Install)</title>
     <authors>Dirk Hohndel, Linus Torvalds, Tomaz Canabrava, Berthold Stöger and many more</authors>
     <projectUrl>https://subsurface-divelog.org/</projectUrl>
-    <iconUrl>https://cdn.staticaly.com/gh/Subsurface-divelog/subsurface/master/icons/subsurface-icon.png</iconUrl>
-    <licenseUrl>https://raw.githubusercontent.com/Subsurface-divelog/subsurface/master/LICENSE</licenseUrl>
+    <iconUrl>https://cdn.statically.io/gh/subsurface/subsurface/master/icons/subsurface-icon.png</iconUrl>
+    <licenseUrl>https://raw.githubusercontent.com/subsurface/subsurface/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <projectSourceUrl>https://github.com/Subsurface-divelog/subsurface</projectSourceUrl>
     <docsUrl>https://subsurface-divelog.org/documentation/</docsUrl>
+    <projectSourceUrl>https://github.com/subsurface/subsurface</projectSourceUrl>
     <bugTrackerUrl>https://subsurface-divelog.org/bugtracker/</bugTrackerUrl>
-    <mailingListUrl>https://groups.google.com/forum/#!forum/subsurface-divelog</mailingListUrl>
+    <mailingListUrl>https://groups.google.com/g/subsurface-divelog</mailingListUrl>
     <tags>subsurface divelog scuba</tags>
     <summary>Subsurface is a piece of software for logging and planning scuba dives.</summary>
     <description>Software for logging and planning scuba dives. Subsurface allows a scuba diver or free diver to keep track of their dive data. Recorded dive data can be downloaded from many dive computers and can be analyzed.
