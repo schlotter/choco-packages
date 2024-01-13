@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://github.com/subsurface/nightly-builds/releases/download/v6.0.5038-CICD-release/subsurface-6.0.5038-CICD-release-installer.exe'
+$url        = 'https://github.com/subsurface/nightly-builds/releases/download/v6.0.5053-CICD-release/subsurface-6.0.5053-CICD-release-installer.exe'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -10,7 +10,7 @@ $packageArgs = @{
 
   softwareName  = 'subsurface*'
 
-  checksum      = 'B2B692BD3EA4948F87425CF824F6CD9C27E1D4738D68D07E483C2F72F0CF86B7'
+  checksum      = '2d163dc9fb2dc59f4e87bd04102279f62ebfa31d8917fcfdabfc02821d5bd47d'
   checksumType  = 'sha256'
 
   silentArgs    = '/S'
