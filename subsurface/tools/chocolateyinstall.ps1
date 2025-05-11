@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://subsurface-divelog.org/downloads/subsurface-6.0.5299-CICD-release-installer.exe'
+$url        = 'https://subsurface-divelog.org/downloads/subsurface-6.0.5365-CICD-release-installer.exe'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -10,7 +10,7 @@ $packageArgs = @{
 
   softwareName  = 'subsurface*'
 
-  checksum      = '504D938B83C7C65C703A1437B63533B4CB2BD78D61B416F69756D9E0E65205A6'
+  checksum      = '0B0C6DA91D7635D9BD265F505C03E7AF660705F1F70D0B2CB85D0EA6E035513A'
   checksumType  = 'sha256'
 
   silentArgs    = '/S'
